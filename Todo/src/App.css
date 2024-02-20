@@ -1,0 +1,84 @@
+body{
+  background-color: blueviolet;
+  display: grid;
+}
+
+
+.formui{
+  /* background-color: brown; */
+  /* height: 100vh;
+  width: 100vw; */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.form input{
+  border-radius: 2px solid ;
+  width: 300px;
+  padding: 10px;
+  outline: none;
+}
+
+.btn{
+  cursor: pointer;
+  background-color: bisque;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover{
+  background-color: coral;
+}
+
+.home h1{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.record{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.navigation{
+  display: flex;
+  justify-content: right;
+}
+.tasksss{
+  font-size: 20px;
+  border: 1px solid black;
+  width:300px;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.rec{
+  margin-top: 5px;
+  background-color: azure;
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+
+.checkbox .icon{
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.tasksss div span{
+  margin: 0px 0px 0px 4px;
+}
+.tasksss div .icon{
+  cursor: pointer;
+}
+
+.line_strike{
+  text-decoration: line-through ;
+}
