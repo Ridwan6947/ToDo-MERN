@@ -82,3 +82,8 @@ body{
 .line_strike{
   text-decoration: line-through ;
 }
+
+.heading .btn{
+  border-radius: 15px;
+  width: 5rem;
+}

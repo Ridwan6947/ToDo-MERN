@@ -1,6 +1,7 @@
 import React from 'react'
 // import {useHistory} from 'react-router-dom';
 
+
 function header() {
 
     // const history = useHistory();
@@ -10,7 +11,7 @@ function header() {
   return (
     <div className="heading" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <h2 style={{textAlign:'center' , margin:'0'}}>ToDo-List</h2>
-        <button className='btn' >About</button>
+        <button className='btn'>Login</button>
     </div>
   )
 }

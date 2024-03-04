@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import Ui from './ui'
-import Header from './header'
+import Ui from '../components/ui'
+import Header from '../components/header'
 
 
 function home() {
